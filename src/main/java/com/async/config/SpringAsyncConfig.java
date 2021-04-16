@@ -23,6 +23,7 @@ public class SpringAsyncConfig implements AsyncConfigurer{
 	@Bean(name = "asyncExecutor")
 	public Executor asyncExecutor() {
 		ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
+		System.out.println("============== start ==============");
 		executor.setCorePoolSize(3);
 		executor.setMaxPoolSize(3);
 		executor.setQueueCapacity(100);
