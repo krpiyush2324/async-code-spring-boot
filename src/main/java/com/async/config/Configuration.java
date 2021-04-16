@@ -11,5 +11,9 @@ public class Configuration {
 		System.out.println("test1 method");
 	}
 	
+	public void test2Method() {
+		System.out.println("test2 method");
+	}
+	
 	
 }
