@@ -11,7 +11,7 @@ public class AsyncApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(AsyncApplication.class, args);
 	}
-
+	
 	@Bean
 	public RestTemplate restTemplate() {
 		return new RestTemplate();
