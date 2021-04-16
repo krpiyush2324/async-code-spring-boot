@@ -12,6 +12,7 @@ public class Configuration {
 	}
 	
 	public void test2Method() {
+		//printing method2
 		System.out.println("test2 method");
 	}
 	
