@@ -18,6 +18,8 @@ import com.async.asyncService.CustomAsyncExceptionHandler;
 @ComponentScan("com.async")
 public class SpringAsyncConfig implements AsyncConfigurer{
 
+	
+	// this method is for execting the async code
 	@Bean(name = "asyncExecutor")
 	public Executor asyncExecutor() {
 		ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
