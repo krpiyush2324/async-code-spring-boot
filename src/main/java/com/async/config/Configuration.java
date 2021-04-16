@@ -5,6 +5,7 @@ public class Configuration {
 	public void testMethod() {
 		System.out.println("test method");
 	}
+
 	
 	
 	public void test1Method() {
@@ -17,4 +18,5 @@ public class Configuration {
 	}
 	
 	
+
 }
