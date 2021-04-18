@@ -13,7 +13,7 @@ public class AsyncApplication implements ApplicationRunner {
 	public static void main(String[] args) {
 		SpringApplication.run(AsyncApplication.class, args);
 	}
-
+	
 	@Bean
 	public RestTemplate restTemplate() {
 		return new RestTemplate();
@@ -22,9 +22,8 @@ public class AsyncApplication implements ApplicationRunner {
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
 		// TODO Auto-generated method stub
-
-		System.out.println("start of application runner");
+		
 		System.out.println("application runner added");
-		System.out.println("start of application runner");
+		
 	}
 }
